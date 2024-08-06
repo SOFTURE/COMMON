@@ -6,4 +6,31 @@
         <Nullable>enable</Nullable>
     </PropertyGroup>
 
+    <PropertyGroup>
+        <AssemblyName>SOFTURE.Language.Common</AssemblyName>
+        <AssemblyTitle>$(AssemblyName)</AssemblyTitle>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <LangVersion>latest</LangVersion>
+        <Title>$(AssemblyName)</Title>
+        <Authors>SOFTURE</Authors>
+        <Copyright>Copyright (c) 2024 $(Authors)</Copyright>
+        <Description>SOFTURE - Language Common</Description>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <IncludeSymbols>true</IncludeSymbols>
+        <PackageId>$(AssemblyName)</PackageId>
+        <PackageLicenseFile>LICENSE</PackageLicenseFile>
+        <PackageProjectUrl>https://github.com/SOFTURE/COMMON</PackageProjectUrl>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageReleaseNotes>See $(PackageProjectUrl)/blob/master/CHANGELOG.md for release notes.</PackageReleaseNotes>
+        <PackageTags>SOFTURE</PackageTags>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <RepositoryType>Git</RepositoryType>
+        <RepositoryUrl>$(PackageProjectUrl)</RepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="..\..\README.md" Pack="true" PackagePath="\"/>
+        <None Include="..\..\LICENSE" Pack="true" PackagePath="\"/>
+    </ItemGroup>
+
 </Project>
