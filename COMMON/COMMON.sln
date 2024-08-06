@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Contract.Common", "SOFTURE.Contract.Common\SOFTURE.Contract.Common.csproj", "{5FD2B4A6-A77B-4853-BDEC-1B5AC3B0860C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Language.Common", "SOFTURE.Language.Common\SOFTURE.Language.Common.csproj", "{84352D38-548F-44D9-8660-8865300AF330}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5FD2B4A6-A77B-4853-BDEC-1B5AC3B0860C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FD2B4A6-A77B-4853-BDEC-1B5AC3B0860C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FD2B4A6-A77B-4853-BDEC-1B5AC3B0860C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FD2B4A6-A77B-4853-BDEC-1B5AC3B0860C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84352D38-548F-44D9-8660-8865300AF330}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84352D38-548F-44D9-8660-8865300AF330}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84352D38-548F-44D9-8660-8865300AF330}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84352D38-548F-44D9-8660-8865300AF330}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
