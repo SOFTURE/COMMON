@@ -13,14 +13,14 @@
     </ItemGroup>
 
     <PropertyGroup>
-        <AssemblyName>SOFTURE.Language.Common</AssemblyName>
+        <AssemblyName>SOFTURE.Settings</AssemblyName>
         <AssemblyTitle>$(AssemblyName)</AssemblyTitle>
         <ImplicitUsings>enable</ImplicitUsings>
         <LangVersion>latest</LangVersion>
         <Title>$(AssemblyName)</Title>
         <Authors>SOFTURE</Authors>
         <Copyright>Copyright (c) 2024 $(Authors)</Copyright>
-        <Description>SOFTURE - Language Common</Description>
+        <Description>SOFTURE - Settings</Description>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <IncludeSymbols>true</IncludeSymbols>
         <PackageId>$(AssemblyName)</PackageId>
