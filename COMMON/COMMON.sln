@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Contract.Common", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Language.Common", "SOFTURE.Language.Common\SOFTURE.Language.Common.csproj", "{84352D38-548F-44D9-8660-8865300AF330}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Settings", "SOFTURE.Settings\SOFTURE.Settings.csproj", "{935B4EAE-4CC7-4759-8808-E556B839BB28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Results", "SOFTURE.Results\SOFTURE.Results.csproj", "{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{84352D38-548F-44D9-8660-8865300AF330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{84352D38-548F-44D9-8660-8865300AF330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{84352D38-548F-44D9-8660-8865300AF330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{935B4EAE-4CC7-4759-8808-E556B839BB28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{935B4EAE-4CC7-4759-8808-E556B839BB28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{935B4EAE-4CC7-4759-8808-E556B839BB28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{935B4EAE-4CC7-4759-8808-E556B839BB28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
