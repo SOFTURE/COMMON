@@ -6,7 +6,7 @@
 
 ### Extracting settings from appsettings.json
 ```csharp
- private readonly MySettings _mySettings;
+private readonly MySettings _mySettings;
 
 public MyController(IOptions<MySettings> options)
 {
