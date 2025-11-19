@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Settings", "SOFTURE
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Results", "SOFTURE.Results\SOFTURE.Results.csproj", "{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOFTURE.Domain", "SOFTURE.Domain\SOFTURE.Domain.csproj", "{F4030A52-BA49-4BD4-A159-65C95A6F2679}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F9C1422-C550-4D61-913E-BBA96D6B4FA4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4030A52-BA49-4BD4-A159-65C95A6F2679}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4030A52-BA49-4BD4-A159-65C95A6F2679}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4030A52-BA49-4BD4-A159-65C95A6F2679}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4030A52-BA49-4BD4-A159-65C95A6F2679}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
