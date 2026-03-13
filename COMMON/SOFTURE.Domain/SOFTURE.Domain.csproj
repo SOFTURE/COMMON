@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFrameworks>net6.0;net8.0;net9.0</TargetFrameworks>
+        <TargetFrameworks>net6.0;net8.0;net9.0;net10.0</TargetFrameworks>
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
     </PropertyGroup>
@@ -20,7 +20,7 @@
         <LangVersion>latest</LangVersion>
         <Title>$(AssemblyName)</Title>
         <Authors>SOFTURE</Authors>
-        <Copyright>Copyright (c) 2024 $(Authors)</Copyright>
+        <Copyright>Copyright (c) 2026 $(Authors)</Copyright>
         <Description>SOFTURE - Domain</Description>
         <EmbedUntrackedSources>true</EmbedUntrackedSources>
         <IncludeSymbols>true</IncludeSymbols>
