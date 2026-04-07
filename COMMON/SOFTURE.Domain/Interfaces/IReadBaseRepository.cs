@@ -11,5 +11,5 @@ public interface IReadBaseRepository<TEntity, in TIdentifier>
     Task<Maybe<IEnumerable<TEntity>>> GetAllAsync();
     Task<Maybe<IEnumerable<TEntity>>> FindAsync(Expression<Func<TEntity, bool>> predicate);
     Task<Maybe<IEnumerable<TEntity>>> PaginateAsync(int page, int elements, Expression<Func<TEntity, bool>> predicate);
-    Task<Maybe<int>> CountAsync();
+    Task<Maybe<int>> CountAsync(Expression<Func<TEntity, bool>>? predicate = null);
 }

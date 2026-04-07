@@ -41,6 +41,27 @@ public interface IUserRepository : IBaseRepository<User, UserId> { }
 public interface IUserReadRepository : IReadBaseRepository<User, UserId> { }
 ```
 
+### SOFTURE.Domain — Repository Interfaces
+
+#### `IBaseRepository<TEntity, TIdentifier>` — full CRUD repository for aggregate roots
+
+| Method | Return Type | Description |
+|--------|-------------|-------------|
+| `GetAsync(TIdentifier id)` | `Task<Result<TEntity>>` | Get entity by identifier |
+| `AddAsync(TEntity entity)` | `Task<Result<TEntity>>` | Add a new entity |
+| `UpdateAsync(TEntity entity)` | `Task<Result<TEntity>>` | Update an existing entity |
+| `RemoveAsync(TEntity entity)` | `Task<Result>` | Remove an entity |
+
+#### `IReadBaseRepository<TEntity, TIdentifier>` — read-only repository
+
+| Method | Return Type | Description |
+|--------|-------------|-------------|
+| `GetAsync(TIdentifier id)` | `Task<Maybe<TEntity>>` | Get entity by identifier |
+| `GetAllAsync()` | `Task<Maybe<IEnumerable<TEntity>>>` | Get all entities |
+| `FindAsync(predicate)` | `Task<Maybe<IEnumerable<TEntity>>>` | Find entities matching a predicate |
+| `PaginateAsync(page, elements, predicate)` | `Task<Maybe<IEnumerable<TEntity>>>` | Paginate entities with a predicate |
+| `CountAsync(predicate?)` | `Task<Maybe<int>>` | Count entities with an optional predicate |
+
 ### SOFTURE.Domain — StatefulEntity
 ```csharp
 public sealed class Order : StatefulEntity<OrderId, OrderState, OrderAction>
