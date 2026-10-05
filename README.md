@@ -61,6 +61,8 @@ public interface IUserReadRepository : IReadBaseRepository<User, UserId> { }
 | `FindAsync(predicate)` | `Task<Maybe<IEnumerable<TEntity>>>` | Find entities matching a predicate |
 | `PaginateAsync(page, elements, predicate)` | `Task<Maybe<IEnumerable<TEntity>>>` | Paginate entities with a predicate |
 | `CountAsync(predicate?)` | `Task<Maybe<int>>` | Count entities with an optional predicate |
+| `ProjectAsync(predicate, selector, limit?)` | `Task<IReadOnlyList<TResult>>` | Project entities matching a predicate into `TResult`, optionally capped at `limit` |
+| `ProjectAsync(predicate, selector, orderBy, limit?)` | `Task<IReadOnlyList<TResult>>` | Same as above, ordered ascending by `orderBy` before the cap is applied |
 
 ### SOFTURE.Domain — StatefulEntity
 ```csharp
