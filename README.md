@@ -2,7 +2,7 @@
 
 A collection of shared .NET libraries providing foundational building blocks for domain-driven design, result handling, contracts, settings management, and common language primitives.
 
-Supported frameworks: `net6.0`, `net8.0`, `net9.0`, `net10.0`
+Supported frameworks: `net6.0`, `net8.0`, `net10.0`
 
 ## Projects
 
